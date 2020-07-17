@@ -11,7 +11,7 @@ git clone https://github.com/hemanshu14/ABN-AMRO-code-assignment.git
 ```
 You should have MYSQL installed in your system
 You should have Node installed in your system
-Make sure your MYSQL properties should be present in database.json file
+Make sure your MYSQL properties should be present in migration/database.json file
 ```
 
 

@@ -18,7 +18,14 @@ npm install
 
 ### Compiles and hot-reloads for development (Run Application in standalone mode)
 ```
-npm run serve
+Make sure your backend server should be running to run the following commands:
+cd backend
+npm install
+node server.js  (Will start backend server)
+
+cd ../frontend
+npm run serve (To start front end application in standalone mode)
+Hit URL - http://localhost:8080/
 ```
 
 ### Compiles and minifies for production
