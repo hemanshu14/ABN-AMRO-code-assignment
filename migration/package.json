@@ -1,0 +1,17 @@
+{
+  "name": "migration",
+  "version": "1.0.0",
+  "description": "Node.js migration script to store data in MySQL database",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "node node_modules/db-migrate/bin/db-migrate db:create nerf-herders && node node_modules/db-migrate/bin/db-migrate up:migration",
+    "drop-db": "node node_modules/db-migrate/bin/db-migrate db:drop nerf-herders",
+    "drop-table": "node node_modules/db-migrate/bin/db-migrate down:migration"
+  },
+  "author": "Hemanshu Banga",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.11.11",
+    "db-migrate-mysql": "^2.1.1"
+  }
+}
