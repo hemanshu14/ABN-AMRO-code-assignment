@@ -17,7 +17,7 @@ Make sure your MYSQL properties should be present in migration/database.json fil
 
 ### To create database and migrate data into database
 ```
-cd migration
+cd ABN-AMRO-code-assignment/migration
 npm install   (To install all the dependencies)
 Make sure your MYSQL properties should be present in database.json file
 npm run migrate  (This will create database, table and insert data)
@@ -25,7 +25,7 @@ npm run migrate  (This will create database, table and insert data)
 
 ### To start front end application
 ```
-cd backend
+cd ../backend
 npm install  (To install all the dependencies)
 node server.js  (To start the local server)
 You can then access the application by http://localhost:3000/
@@ -33,7 +33,7 @@ You can then access the application by http://localhost:3000/
 
 ### To do any changes in front end application
 ```
-cd frontend
+cd ../frontend
 npm install  (To install all the dependencies)
 npm run serve (To start front end application in standalone mode)
 

@@ -12,14 +12,14 @@ Make sure you have already run migration and backend phase
 ## Project setup
 ```
 git clone https://github.com/hemanshu14/ABN-AMRO-code-assignment.git
-cd frontend
+cd ABN-AMRO-code-assignment/frontend
 npm install
 ```
 
 ### Compiles and hot-reloads for development (Run Application in standalone mode)
 ```
 Make sure your backend server should be running to run the following commands:
-cd backend
+cd ABN-AMRO-code-assignment/backend
 npm install
 node server.js  (Will start backend server)
 

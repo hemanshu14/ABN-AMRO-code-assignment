@@ -12,7 +12,7 @@ Make sure your MYSQL properties should be present in database.json file
 ## Project setup
 ```
 git clone https://github.com/hemanshu14/ABN-AMRO-code-assignment.git
-cd migration
+cd ABN-AMRO-code-assignment/migration
 npm install
 ```
 

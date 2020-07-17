@@ -12,7 +12,7 @@ Make sure your MYSQL properties should be present in backend/app/config/db.js
 ## Project setup
 ```
 git clone https://github.com/hemanshu14/ABN-AMRO-code-assignment.git
-cd backend
+cd ABN-AMRO-code-assignment/backend
 npm install
 ```
 
