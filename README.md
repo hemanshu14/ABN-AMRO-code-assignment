@@ -1,5 +1,9 @@
 # code-assignment 
-A coding challenge consisting of three phases migration,backend and frontend
+A coding challenge consisting of three phases migration,backend and frontend.
+The application will display tree layout of the data having parent and their children.
+If you will click on a parent node, then their child nodes will be highlighted. Also,
+you will be able to see the node's extra information by clicking on it in a notification tab
+and you can close the notification tab as well.
 
 ## Project setup
 ```
